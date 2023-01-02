@@ -47,4 +47,4 @@ print(len(p))
 txt = "The best things in life are free"
 print("free" in txt)
 b = "Hello world"
-print(b[2:5])    
+print(b[2:5])
