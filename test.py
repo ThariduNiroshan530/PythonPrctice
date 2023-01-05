@@ -48,3 +48,7 @@ txt = "The best things in life are free"
 print("free" in txt)
 b = "Hello world"
 print(b[2:5])
+a = 200
+b = 33
+q = b*a
+print(q)
