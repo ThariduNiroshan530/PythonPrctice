@@ -52,3 +52,52 @@ a = 200
 b = 33
 q = b*a
 print(q)
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+list1 = ["apple", "banana", "cherry"]
+print(list1)
+list2 =[1, 5, 6, 9]
+print(list2)
+list3 = [True, False, False]
+print(list3)
+print("Tharidu")
+#print("hello, world!")
+print("cheers, Matel!")
+x = 5
+print(x)
+y = "Tharidu"
+print(y)
+x = 4 # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+x = str(3) # x will be '3'
+y = int(3) # y will be 3
+z = float(3) # z will be 3.0
+print(x)
+print(y)
+print(z)
+b = "Hello, world"
+print(b)
+print(b[2:5])
+print(b[:5])
+print(b[2:])
+a = "Hello world"
+print(a.upper())
+print(a.upper())
+print(a.strip()) # returns "Hello world"
+print(a.replace("H", "J"))
+print(a.split(","))
+a = "Hello"
+b = "world"
+c = a + b
+print(c)
+c = a + " " + b
+print(c)
+age = 21
+txt = "My name is Tharidu, and I am {}"
+print(txt)
+print(10 + 3)
+mylist = ["apple", "banana", "cherry"]
+print(mylist)
