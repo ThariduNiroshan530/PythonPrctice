@@ -132,4 +132,26 @@ class myclass():
         return 0
 myobj = myclass()
 print(bool(myobj))  
-      
+
+
+def myFunction() :
+  return True
+
+print(myFunction())      
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+
+  x = 200
+print(isinstance(x, int))
+
+x = lambda a : a + 10
+print(x(5))
+
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
