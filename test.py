@@ -196,3 +196,10 @@ print(2**2**3)
 print(2**4)
 print(3**2**4)
 print(77/98 -65*6)
+print(8**3**2)
+print("Tharidu")
+print("Tharidu")
+x = 6
+y = 8
+z = x+y
+print(z)
