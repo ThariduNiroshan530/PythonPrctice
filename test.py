@@ -203,3 +203,12 @@ x = 6
 y = 8
 z = x+y
 print(z)
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+print(len(thistuple))
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
