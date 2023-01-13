@@ -212,3 +212,64 @@ print(type(thistuple))
 #NOT a tuple
 thistuple = ("apple")
 print(type(thistuple))
+tuple8 = ("apple", "banana", "cherry")
+tuple9 = (1,2,3,4,5,9)
+tuple12 = (True, False, False)
+print(tuple8)
+print(len(tuple8))
+print(tuple9)
+print(len(tuple9))
+print(tuple12)
+print(len(tuple12))
+tuple01 = ("abc", 34, True, 40, "male")
+print(tuple01)
+print(type(tuple01))
+thistuple = tuple(("apple", "banana", "cherry")) #note the double round-brackets
+print(thistuple)
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+print(thistuple[-1])
+thistuple = ("apple", "banana", "cherry", "orange", "mango")
+print(thistuple[2:5])
+print(thistuple[:4])
+print(thistuple[2:])
+print(thistuple[-4:-1])
+
+
+thistuple = ("apple", "banana", "cherry")
+if "apple" in thistuple:
+  print("Yes, 'apple' is in the fruits tuple")
+  
+  x = ("apple", "banana", "cherry")
+  y = list(x)
+  y[1] = "kiwi"
+  x = tuple(y)
+
+  print(x)
+
+print(thistuple)
+
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+      print(thistuple[i])
+      i = i + 1      
+
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+thistupl = ("apple", "banana", "cherry")
+for x in thistupl:
+  print(x)
+
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+    print(thistuple[i])
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.remove("apple")
+thistuple = tuple(y)
