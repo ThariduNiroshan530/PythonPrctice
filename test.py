@@ -388,5 +388,41 @@ x.intersection_update()
 print(x)
 
 
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.intersection(y)
+
+print(z)
+
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.symmetric_difference_update(y)
+
+print(x)
+
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.symmetric_difference(y)
+
+print(z)
+
+
+#python dictionary
+
+thisdict = {
+   "brand": "Ford",
+   "model": "Mustange",
+   "year": 1964
+} 
+print(thisdict)
+
+
+
+
 
 
