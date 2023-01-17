@@ -508,9 +508,38 @@ myfamily = {
   }
 }   
 
+child1 = {
+  "name" : "Email",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3,
+}
 
 
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
 
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+    
 
 
 
