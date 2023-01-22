@@ -569,12 +569,6 @@ def my_function(*kids):
 my_function("Email", "Tobias", "Linus")
 
 
-def my_function(chid3, chid2, child1):
-  print("The youngest child is " + child3)
-
-my_function(child1 = "Email", child2 = "Tobias", child3 = "Linus")
-
-
 def my_function(**kid):
    print("His last name is " + kid["lname"])
 
@@ -611,7 +605,7 @@ def tri_recursion(k):
       print(result)
    else:
       result = 0
-    return result
+      return result
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
