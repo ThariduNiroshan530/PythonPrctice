@@ -133,4 +133,35 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
-            
+ 
+ #python string formatting
+
+price = 49
+txt = "The price is {} dollars"
+print(txt.format(price))
+
+price = 49
+txt = "The price is {:.2f} dollars"
+price(txt.format(price))
+
+quantity = 3
+itemo = 567
+price = 49
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."
+print(myorder.format(quantity, itemo, price))
+
+quantity = 3
+itemo = 567
+price = 49
+myorder = "iI want {0} pieces of item number {1} for {2:.2f} dollars."
+print(myorder.format(quantity, itemo, price))
+
+age = 36
+name = "John"
+txt = "Hos name is {1}. {1} is {0} yours old."
+price(txt.format(age, name))
+
+myorder = "I have a {carname}, it is a {model}."
+price(myorder.format(carname = "Ford", model = "Mustang"))
+
+
