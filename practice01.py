@@ -186,3 +186,22 @@ tuple1 = ("apple", "banana", "cherry")
 tuple2 = (1, 5, 7, 9, 3)
 tuple3 = (True, False, False)
 
+
+print("Tharidu")
+
+username = input("Enter username:")
+print("Username is: " + username)
+
+
+price = 49
+txt = "The price is {} dollars"
+print(txt.format(price))
+
+quantity = 3
+itemo = 675
+price = 49
+myorder = "I want {} pieces of item number {} for{:.2f} dollars."
+
+
+
+
