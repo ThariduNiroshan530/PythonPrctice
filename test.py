@@ -672,6 +672,14 @@ p1 = Person("John", 36)
 print(p1.name)
 print(p1.age)
 
+print("Tharidu niroshan")
+
+
+x = 87
+y = 899
+z = x + y
+print(z)
+print("Tharidu Niroshan Chathuranga")
 
 
 
