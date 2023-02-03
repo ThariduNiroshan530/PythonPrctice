@@ -684,4 +684,12 @@ print("Tharidu Niroshan Chathuranga")
 
 print("Hello world")
 
+print("Tharidu")
+
+x = 8
+y = 9
+z = x*y
+print(z)
+
+
 
