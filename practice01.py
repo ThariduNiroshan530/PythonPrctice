@@ -41,19 +41,6 @@ print(c)
 a=True
 b=False
 
-v=a^b
-print(v)
-x=4
-x= 5
-x+= 3
-print(x)
-a=a+4
-print(a)
-
-a,b=9,6
-print(a,b)
-
-
 # name=input('Enter your name:')
 # print("Hello",name)
 
@@ -130,9 +117,6 @@ class Person:
 
         def myfunc(self):
             print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-p1.myfunc()
  
  #python string formatting
 
@@ -140,9 +124,6 @@ price = 49
 txt = "The price is {} dollars"
 print(txt.format(price))
 
-price = 49
-txt = "The price is {:.2f} dollars"
-price(txt.format(price))
 
 quantity = 3
 itemo = 567
@@ -204,4 +185,29 @@ myorder = "I want {} pieces of item number {} for{:.2f} dollars."
 
 
 
+
+
+def calculate():
+    # Get the input form the user
+    operation = input("enter the sum (+, -, *, /): ")
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+
+    #Perform the calculation
+    if operation == '+':
+        result = num1 + num2
+    elif operation == '-':
+        result = num1 - num2
+    elif operation == '*':
+        result = num1 * num2
+    elif operation == '/':
+        result = num1 / num2
+    else:
+        result = "Invalid operator"
+
+    # Print the result
+    print("The result is:", result)
+
+# Call the calculate function
+calculate()
 

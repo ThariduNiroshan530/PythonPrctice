@@ -599,16 +599,6 @@ print(my_function(3))
 print(my_function(5))
 print(my_function(9))
 
-def tri_recursion(k):
-   if(k > 0):
-      result = k + tri_recursion(k - 1)
-      print(result)
-   else:
-      result = 0
-      return result
-
-print("\n\nRecursion Example Results")
-tri_recursion(6)
 
 x = lambda a : a + 10
 print(x(5))
@@ -667,10 +657,6 @@ class Person:
       self.name = name
       self.age = age
 
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
 
 print("Tharidu niroshan")
 
