@@ -679,4 +679,13 @@ print(z)
 
 print("Helloworld")
 
+print("Tharidu")
+
+x = 4
+d = 6
+s = x + d
+print(s)
+
+lst = {"apple", "banana", "cherry"}
+print(lst)
 
