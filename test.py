@@ -689,3 +689,12 @@ print(s)
 lst = {"apple", "banana", "cherry"}
 print(lst)
 
+print("Tharidu Niroshan")
+
+
+thisset = {"apple","banana", "cherry"}
+
+thisset.discard("banana")
+
+print(thisset)
+
